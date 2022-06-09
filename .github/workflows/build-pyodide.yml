@@ -5,7 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-    - uses: jobovy/pyodide-buildpackage-action@main
+    - uses: jobovy/pyodide-buildpackage-action@firsttry
     - uses: actions/upload-artifact@v2-preview
       with:
         name: galpy-wheels-pyodide
