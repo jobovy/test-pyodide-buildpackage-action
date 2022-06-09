@@ -7,7 +7,6 @@ jobs:
     steps:
     - uses: jobovy/pyodide-buildpackage-action@main
     - uses: actions/upload-artifact@v2-preview
-        with:
-          name: galpy-wheels-pyodide
-          path: wheelhouse/*.whl
-          
+      with:
+        name: galpy-wheels-pyodide
+        path: wheelhouse/*.whl
