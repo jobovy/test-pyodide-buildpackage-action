@@ -1,6 +1,5 @@
 on:
   push:
-  pr:
 
 jobs:
   build:
