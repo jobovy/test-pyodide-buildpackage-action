@@ -7,6 +7,9 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - uses: jobovy/pyodide-buildpackage-action@firsttry
+      with:
+        package-name: galpy
+        build-url: https://github.com/jobovy/galpy/archive/main.tar.gz
     - uses: actions/upload-artifact@v2-preview
       with:
         name: galpy-wheels-pyodide
