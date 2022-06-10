@@ -10,6 +10,7 @@ jobs:
       with:
         package-name: galpy
         build-url: https://github.com/jobovy/galpy/archive/main.tar.gz
+        pyodide-tag: main
     - uses: actions/upload-artifact@v2-preview
       with:
         name: galpy-wheel-pyodide
