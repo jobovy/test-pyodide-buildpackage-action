@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v2
-    - uses: jobovy/pyodide-buildpackage-action@main
+    - uses: jobovy/pyodide-buildpackage-action@cache
       with:
         package-name: galpy
         build-url: https://github.com/jobovy/galpy/archive/main.tar.gz
