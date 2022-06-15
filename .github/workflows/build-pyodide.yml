@@ -12,7 +12,7 @@ jobs:
       with:
         package-name: galpy
         build-url: https://github.com/jobovy/galpy/archive/main.tar.gz
-        pyodide-tag: 9c305efc465f033fea3aa6cccaf4fbdd93ad74f4
+        pyodide-tag: 8d30ebdf136c3626a94193b47a04ccc263549cf9
         build-deps: False
     - uses: actions/upload-artifact@v2-preview
       with:
